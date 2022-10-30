@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1>Store Label Generator</h1><br><br>
+  <label>name:</label>
+  <input type="text" id="name-input"><br><br>
+  <label>price:</label>
+  <input type="text" id="price-input"><br><br>
+  <button id="generate" class="btn btn-light">generate</button><br><br><br>
+
+<div id="result">
+  <h1 id="name"></h1>
+  <svg id="barcode" width="49px" height="49px"></svg>
+  <h2 id="price"></h2>
+</div>
+  <br><br>
+    <button id="download" class="btn btn-light">download</button>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.5/JsBarcode.all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
